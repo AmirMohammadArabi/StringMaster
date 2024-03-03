@@ -10,8 +10,7 @@ public class Advanced {
 
      */
     public String wordCensor(String sentence, String word, String newWord){
-        String str1 = sentence.replace(word, newWord) ;
-        return str1 ;
+        return sentence.replace(word, newWord);
     }
 
     /**
